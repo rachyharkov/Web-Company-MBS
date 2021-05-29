@@ -123,7 +123,7 @@ body
 
 #navbar-desktop
 {
-    background-color: #f3f3f3;
+    background-color: #ab4543;
     height: auto;
     padding: 10px 4em 0px 4em;
     position: relative;
@@ -133,8 +133,8 @@ body
 #navbar-desktop .nd-wrapper
 {
     width: 100%;
-    max-width: 960px;
     margin: auto;
+    display: inline-block;
 }
 
 #navbar-desktop .nd-wrapper .navbar-comp-logo
@@ -148,8 +148,9 @@ body
     float: right;
     display: flex;
     flex-direction: row;
+    max-width: 53vh;
+    width: 53vh;
     height: auto;
-    width: 70%;
     margin: 10px;
     padding: 10px;
     justify-content: space-between;
@@ -170,7 +171,7 @@ body
 
 #navbar-desktop .nd-wrapper .link-lists .link-list a
 {
-    color: #32326F;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -322,6 +323,7 @@ body
     display: flex; 
     flex-direction: row; 
     margin-top: -70px;
+    justify-content: center;
 }
 
 .sect-1 .card-slider-wrapper .card
@@ -378,7 +380,7 @@ body
 {
     width: 100%;
     display: block;
-    border-radius: 40px;
+    border-radius: 50%;
 }
 
 .sect-2
