@@ -55,9 +55,6 @@ document.addEventListener("DOMContentLoaded", function()
 				if(this.status == 200)
 				{
 					content.innerHTML = xhttp.responseText;
-					setTimeout(function(){
-						loadingnya.id = "loading-ajax-end";
-					},5000);
 					destroySlick();		
 					initiateSlickforWrapper();
 				}
@@ -79,4 +76,12 @@ document.addEventListener("DOMContentLoaded", function()
 		xhttp.send();
 	}
 
+});
+
+window.addEventListener("load", function(){
+	var loadingnya = document.getElementById("loading-ajax");
+	setTimeout(function(){
+		loadingnya.id = "loading-ajax-end";
+	},1000);
+	console.log('loaded');
 });

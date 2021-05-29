@@ -220,7 +220,7 @@ body
 
 #content #main header
 {
-    background: url(/assets/images/bg-welsection.jpg);
+    background: url('../images/bg-welsection.jpg');
     padding-top: 8em;
     padding-bottom: 9em;
     font-family: 'Noto Sans SC', sans-serif;
@@ -437,7 +437,7 @@ body
 .sect-3 .container .row .col-md-5 .title h2
 {
     text-align: right;
-    padding: 0px 12px 0px 32%;
+    padding: 0px 12px 0px 0;
     letter-spacing: 3px;
     margin-bottom: 30px;
     transform: translateX(15px);

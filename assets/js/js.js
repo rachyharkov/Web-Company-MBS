@@ -10,9 +10,11 @@ $(document).scroll(function() {
 
     var y = $(this).scrollTop();
     if (y >= 200) {
-        $(".mobile-comp-logo img").attr("src", "./assets/images/logo1-trans.png")
+        $(".mobile-comp-logo img").attr("src", "./assets/images/logo-msb-white.png")
+        //$(".mobile-comp-logo img").attr("src", "./assets/images/logo1-white.png")
     } else {
-        $(".mobile-comp-logo img").attr("src", "./assets/images/logo3-trans.png")
+        $(".mobile-comp-logo img").attr("src", "./assets/images/logo-msb-white.png")
+        //$(".mobile-comp-logo img").attr("src", "./assets/images/logo3-white.png")
     }
 });
 
